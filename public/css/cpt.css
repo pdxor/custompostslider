@@ -1,0 +1,79 @@
+.kcmodal {
+    position: fixed;
+    z-index: 1000001!important;
+    left: 25%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+    background: white;
+    padding-top: 200px;
+    border: 1px solid black;
+    padding: 22px 0px;
+    overflow-y: scroll;
+}
+
+.loading {
+  background: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 99;
+}
+.loading div {
+  width: 51px;
+  position:absolute;
+  top: calc(100% - (50%));
+  left: calc(100% - (50%-50px));
+}
+.bk-carousel-wrap, .bk_powered, {
+  display: none;
+}
+.loadedcontent {
+    z-index: 100;
+  background: white;
+}
+.kcmodal span {
+    position: absolute;
+    top: 15px;
+    right:0px;
+    cursor: pointer;
+    z-index: 99999999;
+}
+.loading {
+  margin: 0 auto;
+  padding-top: 200px;
+  z-index: 88;
+}
+.loadedcontent {
+    z-index: 100;
+    background: white;
+    position: absolute;
+	  width:100%;
+	  height: 100%;
+    padding: 20px 30px;
+}
+.kcmodal span {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    z-index: 111;
+    text-align: left;
+    font-size: 22px;
+}
+.sliderheader {
+  font-size: 18px;
+}
+.cptslide {
+  padding: 2px 5px;
+}
+@media (max-width: 700px) {
+	body .kcmodal {
+    left: 2%;
+    right: 2%;
+    top: 2%;
+    bottom: 2%;
+}
+}
