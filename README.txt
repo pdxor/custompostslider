@@ -8,6 +8,17 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+
+Wordpress instructions:
+Install this plugin. Use the shortcode to set the custom post type and the category
+IE
+[cptslider posttype="project_docs" catid="19"]
+
+Set the jquery attributes on JS file "cpt-slider/public/js/cpt.js"
+See examples on settings at
+http://sachinchoolur.github.io/lightslider/examples.html
+
+
 Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
 
 == Description ==
